@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include deetee_integration *.css
+recursive-include deetee_integration *.csv
+recursive-include deetee_integration *.html
+recursive-include deetee_integration *.ico
+recursive-include deetee_integration *.js
+recursive-include deetee_integration *.json
+recursive-include deetee_integration *.md
+recursive-include deetee_integration *.png
+recursive-include deetee_integration *.py
+recursive-include deetee_integration *.svg
+recursive-include deetee_integration *.txt
+recursive-exclude deetee_integration *.pyc

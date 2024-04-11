@@ -1,0 +1,70 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:unit_id",
+ "creation": "2024-01-16 16:30:18.888735",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "unit_id",
+  "column_break_2",
+  "wip_warehouse",
+  "column_break_4",
+  "fg_warehouse"
+ ],
+ "fields": [
+  {
+   "fieldname": "unit_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Unit Id",
+   "unique": 1
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "wip_warehouse",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "WIP Warehouse",
+   "options": "Warehouse"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "fg_warehouse",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "FG Warehouse",
+   "options": "Warehouse"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-16 16:33:40.171385",
+ "modified_by": "Administrator",
+ "module": "Deetee Integration",
+ "name": "DeeTee Unit",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

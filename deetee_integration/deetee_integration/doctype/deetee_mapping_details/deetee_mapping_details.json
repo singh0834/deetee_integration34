@@ -1,0 +1,64 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-04 00:28:14.260519",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "frappe_field",
+  "deetee_field",
+  "default_value",
+  "convert"
+ ],
+ "fields": [
+  {
+   "fieldname": "frappe_field",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Frappe Field"
+  },
+  {
+   "fieldname": "deetee_field",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "DeeTee Field"
+  },
+  {
+   "fieldname": "default_value",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Default Value"
+  },
+  {
+   "fieldname": "convert",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Convert",
+   "options": "\nInt\nStr\nFloat"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-12-04 01:07:47.937771",
+ "modified_by": "Administrator",
+ "module": "Deetee Integration",
+ "name": "DeeTee Mapping Details",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

@@ -1,0 +1,37 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-04 00:54:33.579203",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "frappe_field",
+  "deetee_field"
+ ],
+ "fields": [
+  {
+   "fieldname": "frappe_field",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Frappe Field"
+  },
+  {
+   "fieldname": "deetee_field",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "DeeTee Field"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-12-04 00:54:44.631210",
+ "modified_by": "Administrator",
+ "module": "Deetee Integration",
+ "name": "DeeTee Mapping Unique",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

@@ -1,0 +1,81 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:mapping_doctype",
+ "creation": "2023-12-04 00:29:25.411072",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "mapping_doctype",
+  "column_break_2",
+  "unique_field",
+  "section_break_4",
+  "deetee_mapping_unique",
+  "section_break_6",
+  "deetee_mapping_details"
+ ],
+ "fields": [
+  {
+   "fieldname": "mapping_doctype",
+   "fieldtype": "Link",
+   "label": "Doctype",
+   "options": "DocType",
+   "unique": 1
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "unique_field",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Unique Field",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_4",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "deetee_mapping_details",
+   "fieldtype": "Table",
+   "label": "DeeTee Mapping Details",
+   "options": "DeeTee Mapping Details"
+  },
+  {
+   "fieldname": "section_break_6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "deetee_mapping_unique",
+   "fieldtype": "Table",
+   "label": "DeeTee Mapping Unique",
+   "options": "DeeTee Mapping Unique"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-12-04 00:55:39.514876",
+ "modified_by": "Administrator",
+ "module": "Deetee Integration",
+ "name": "DeeTee Mapping",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

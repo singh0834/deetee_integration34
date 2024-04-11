@@ -1,0 +1,45 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-04 01:37:20.402681",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "document",
+  "last_sync",
+  "sync_now"
+ ],
+ "fields": [
+  {
+   "fieldname": "document",
+   "fieldtype": "Read Only",
+   "in_list_view": 1,
+   "label": "Document"
+  },
+  {
+   "fieldname": "last_sync",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "Last Sync",
+   "read_only": 1
+  },
+  {
+   "fieldname": "sync_now",
+   "fieldtype": "Button",
+   "in_list_view": 1,
+   "label": "Sync Now"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-03-14 20:33:37.878189",
+ "modified_by": "Administrator",
+ "module": "Deetee Integration",
+ "name": "DeeTee Settings Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
